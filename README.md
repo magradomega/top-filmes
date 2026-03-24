@@ -1,22 +1,75 @@
 <!DOCTYPE html>
-<html lang=>
+<html lang="pt-BR">
 <head>
-    <meta charset=>
+    <meta charset="UTF-8">
     <title>Top 5 Filmes</title>
+
+    <style>
+        /* 1. Seletor de elemento */
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        /* 2. Seletor de ID */
+        #titulo {
+            color: cyan;
+        }
+
+        /* 3. Seletor de classe */
+        .filme {
+            margin: 10px;
+        }
+
+        /* 4. Pseudo-classe */
+        .filme:hover {
+            color: yellow;
+        }
+
+        /* 5. Seletor descendente */
+        .filme img {
+            border: 2px solid white;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; background-color: #111; color: white; text-align: center;">
 
-    <h1> TOP 5 FILMES MAIS ASSITIDOS </h1>
+<body>
 
-    <ol style="text-align: left; display: inline-block;">
-        <li>Avatar (2009)</li>
-        <li>Vingadores: Ultimato (2019)</li>
-        <li>Titanic (1997)</li>
-        <li>Star Wars: O Despertar da Força (2015)</li>
-        <li>Vingadores: Guerra Infinita (2018)</li>
-    </ol>
+    <!-- CSS inline -->
+    <h1 id="titulo" style="font-size: 30px;">
+        🎬 Top 5 Filmes
+    </h1>
 
-    <p>Site simples para GitHub Pages 🚀</p>
+    <div class="filme">
+        <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Avatar_%282009_film%29_poster.jpg" width="150">
+        <p>Avatar</p>
+    </div>
+
+    <div class="filme">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/0d/Avengers_Endgame_poster.jpg" width="150">
+        <p>Vingadores: Ultimato</p>
+    </div>
+
+    <div class="filme">
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg" width="150">
+        <p>Titanic</p>
+    </div>
+
+    <div class="filme">
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_poster.jpg" width="150">
+        <p>Star Wars</p>
+    </div>
+
+    <div class="filme">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/4d/Avengers_Infinity_War_poster.jpg" width="150">
+        <p>Guerra Infinita</p>
+    </div>
+
+    <footer style="margin-top:20px;">
+        <p>Site simples</p>
+    </footer>
 
 </body>
 </html>
