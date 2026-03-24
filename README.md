@@ -13,22 +13,22 @@
             text-align: center;
         }
 
-        /* 2. Seletor de ID */
+        
         #titulo {
             color: cyan;
         }
 
-        /* 3. Seletor de classe */
+        
         .filme {
             margin: 10px;
         }
 
-        /* 4. Pseudo-classe */
+        
         .filme:hover {
             color: yellow;
         }
 
-        /* 5. Seletor descendente */
+        
         .filme img {
             border: 2px solid white;
         }
